@@ -28,7 +28,7 @@
 <meta property="og:description" content="引言  现在逛知了社区的签到页面，每天登进去就会有一道题目。难到不是很难，但是涉及面有点广。在这边做个记录">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-11-05T02:31:07.000Z">
-<meta property="article:modified_time" content="2021-11-05T02:59:18.342Z">
+<meta property="article:modified_time" content="2021-11-06T13:20:21.382Z">
 <meta property="article:author" content="Single LYON">
 <meta property="article:tag" content="Network">
 <meta property="article:tag" content="H3C">
@@ -184,10 +184,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-11-05 10:31:07 / 修改时间：10:59:18" itemprop="dateCreated datePublished" datetime="2021-11-05T10:31:07+08:00">2021-11-05</time>
+              <time title="创建时间：2021-11-05 10:31:07" itemprop="dateCreated datePublished" datetime="2021-11-05T10:31:07+08:00">2021-11-05</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-11-06 21:20:21" itemprop="dateModified" datetime="2021-11-06T21:20:21+08:00">2021-11-06</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -221,6 +227,16 @@
 <p>D.92GE+14*10GESFP+</p>
 <p>Answer：C</p>
 <p>分析：这个就是纯纯的硬件知识了，博主是不大了解设备型号的具体端口数量，这个就只能靠积累了。通过查阅H3C官网发现这个型号的交换机于2019/12/31停止销售。相当于这是一个没用的知识点。</p>
+</blockquote>
+<p>2021-11-6</p>
+<blockquote>
+<p>下面关于H3C设备中VTY特点的描述，正确的是？</p>
+<p>A.只用于对设备进行Telnet</p>
+<p>B.每台设备可以支持多个VTY用户同时访问</p>
+<p>C.每个VTY用户对应一个物理接口</p>
+<p>D.不支持无密码验证</p>
+<p>Answer：B</p>
+<p>分析：这个就很简单了，vty可不仅仅适用于Telnet，SSH也需要用到。而且VTY用户对应的是相应的VTY接口，而非物理接口。不管是Telnet，还是SSH都是可以设置密码验证。</p>
 </blockquote>
 
     </div>
